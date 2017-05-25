@@ -17,7 +17,7 @@ echo Empaquetado De Paginas Web Finalizado
 #COMANDO QUE BUSCARA LOS ARCHIVOS DE RESPALDO MAS ANTIGUOS DE X DIAS, PUEDES CAMBIAR EL -mtime +n
 #A SEGUN EL NUMERO DE DIAS QUE QUIERES QUE CONSERVE LOS RESPALDOS.
 #OJO: SE SUELE GUARDAR UNO MAS AL NUMERO.
-find -type f -name "*.tgz" -mtime +31 -exec rm -f {} \;
+find -type f -name "*.zip" -mtime +31 -exec rm -f {} \;
 #FIN DEL SCRIPT LINEAS Y LINEAS DE CREDITOS
 echo Script finalizado >> /var/log/COPIAS_SEGURIDAD.log
 echo Script finalizado
